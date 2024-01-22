@@ -1,3 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Nunito&family=Poppins:wght@300&family=Ubuntu&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+body {
+    @apply bg-white
+}
+
+.container {
+    @apply px-12
+}
+
+li a{
+    @apply hover:text-yellow duration-150
+}
