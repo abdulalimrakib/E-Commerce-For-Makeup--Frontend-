@@ -9,7 +9,7 @@ body {
 }
 
 .container {
-    @apply px-12
+    @apply px-3 md:px-12
 }
 
 li a{
